@@ -11,7 +11,7 @@ class WallpaperApi {
     Uri url =
         Uri.parse('https://api.pexels.com/v1/search?query=$query&per_page=80');
     Map<String, String> header = {
-      'Authorization':'jWrDer5Mn5o4uWDFOmFVPS02qqMtqHGbTUbCAhha1W2TxmioE2RUINDD',
+      'Authorization':'your api key',
     };
     var request = await http.get(url, headers: header);
     if (request.statusCode == 200) {

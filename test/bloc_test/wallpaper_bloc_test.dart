@@ -28,7 +28,7 @@ void main() {
       expect(wallpaperBloc.state, WallpaperInitial());
     });
 
-/// test under development
+/// test under
     blocTest<WallpaperBloc, WallpaperState>(
         'emits [MyState] when MyEvent is added.',
         build: () {
