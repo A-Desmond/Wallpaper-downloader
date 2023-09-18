@@ -1,4 +1,4 @@
-# wallper_chnager
+# wallper_downloader
 
 A new Flutter project.
 
